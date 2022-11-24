@@ -66,6 +66,11 @@ const Contact = () => {
  
    return (
     <>
+   {/* <div class="custom-shape-divider-bottom-1669215740">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200     0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg> 
+</div> */}
     <div className='bg_imgContact container-fluid'>
     <div className=' d-flex justify-content-center align-items-center p-0  m-0 mb-5'>
         <div className='row  '>

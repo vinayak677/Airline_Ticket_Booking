@@ -12,7 +12,7 @@ const Booking_sum = () => {
           </h1>
           <h2 className="mt-2 mb-5 wow animate__animated animate__shakeX">
             Click on the purchase now button to get the ticket for a discounted
-            price
+            Price
           </h2>
         </div>
 
