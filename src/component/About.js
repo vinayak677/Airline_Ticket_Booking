@@ -14,8 +14,8 @@ const About = () => {
            <h1 className='py-3 aboutsize wow animate__animated animate__fadeInDown'>About Our Meetup</h1>
            <p className='pt-3 pb-2 wow animate__animated animate__fadeInRight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
            <p className='wow animate__animated animate__fadeInRight'>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-           <h3 className='wow animate__animated animate__fadeInUp'>25th December’ 19</h3>
-         </div>
+           <h3 className='wow animate__animated animate__fadeInUp'>24th November’ 2022</h3>
+          </div>
         </div>
     </div>
     </>
