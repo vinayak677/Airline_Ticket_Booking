@@ -6,7 +6,7 @@ const Booking_sum = () => {
     <>
      <div className="container mt-5 d-flex justify-content-center align-items-center flex-column">
       <div className="row bg_black  pt-5 my40" >
-        <div className="col-12 ">
+        <div className="col-12">
           <h1 className=" font_xxl mb-5 wow animate__animated animate__flash">
             This website makes it very easy to book a ticket
           </h1>
