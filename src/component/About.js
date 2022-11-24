@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from './Header'
-import Speakers from './Speakers'
+
 
 const About = () => {
   return (

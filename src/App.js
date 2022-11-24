@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./component/About";
 import Header from "./component/Header";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
 import Speakers from "./component/Speakers";
 import TicketPrice from "./component/TicketPrice";

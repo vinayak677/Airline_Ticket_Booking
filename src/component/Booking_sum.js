@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 
 const Booking_sum = () => {
   return (
@@ -10,7 +9,7 @@ const Booking_sum = () => {
           <h1 className=" font_xxl mb-5 wow animate__animated animate__flash">
             This website makes it very easy to book a ticket
           </h1>
-          <h2 className="mt-2 mb-5 wow animate__animated animate__shakeX">
+          <h2 className="mt-2 mb-5 wow animate__animated animate__shakeX h2small">
             Click on the purchase now button to get the ticket for a discounted
             Price
           </h2>

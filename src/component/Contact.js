@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import validator from 'validator';
-import Header from './Header';
 import Map from './Map';
 
 const Contact = () => {
@@ -66,11 +65,6 @@ const Contact = () => {
  
    return (
     <>
-   {/* <div class="custom-shape-divider-bottom-1669215740">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M1200     0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-    </svg> 
-</div> */}
     <div className='bg_imgContact container-fluid'>
     <div className=' d-flex justify-content-center align-items-center p-0  m-0 mb-5'>
         <div className='row  '>
@@ -79,7 +73,7 @@ const Contact = () => {
             </div>
 
 
-        <div className='col-11 col-md-6 col-lg-5 justify-content-between align-items-center mb-3 wow animate__animated animate__fadeInLeftBig'>
+        <div className='col-10 col-sm-12 col-md-6 col-lg-5 justify-content-between align-items-center mb-3 wow animate__animated animate__fadeInLeftBig'>
             <div className='col-12 pb-2'>
             <div className='d-flex h-100 align-items-center '>
 
@@ -87,8 +81,8 @@ const Contact = () => {
               <i class='fa-solid fa-envelope'style={{color: 'blue'}}></i>
               </div>
               <div className='col-8  ml-2'>
-               <p className='m-0'>Email Address</p>
-               <a className='Atags' href='mailto:info@snisindia.in'><h4>vinayakkoli067@gmail.com</h4></a>
+               <p className='m-0 text_white'>Email Address</p>
+               <a className='Atags' href='mailto:info@snisindia.in'><h4 className='h4small text_black '>vinayakkoli067@gmail.com</h4></a>
               </div>
             </div>
             </div>
@@ -98,8 +92,8 @@ const Contact = () => {
               <i class='fa-solid fa-phone' style={{color: 'blue'}}></i>
               </div>
               <div className='col-8 ml-2'>
-               <p className='m-0'>Phone Number</p>
-               <a className='Atags' href='tel:+919845373148'><h4>+91-9590821007</h4></a>
+               <p className='m-0 text_white'>Phone Number</p>
+               <a className='Atags text_white' href='tel:+919845373148'><h4 className='h4small text_black'>+91-9590821007</h4></a>
               </div>
             </div>
             </div>
@@ -109,8 +103,8 @@ const Contact = () => {
               <i class='fa-solid fa-location-dot' style={{color: 'blue'}}></i>
               </div>
               <div className='col-8 ml-2'>
-               <p className='m-0'>Location</p>
-               <h4 className='Atags'>Hanuman Nagar , baskar road, Belgaum</h4>
+               <p className='m-0 text_white'>Location</p>
+               <h4 className='Atags h4small text_black'>Hanuman Nagar , baskar road, Belgaum</h4>
               </div>
             </div>
             </div>
@@ -118,7 +112,7 @@ const Contact = () => {
          </div>
             
             
-            <div className='col-11 col-md-6 col-lg-7'>
+            <div className='col-11 col-sm-12 col-md-6 col-lg-7'>
          
             <div className='row d-flex justify-content-center pb-4'>
             <div className='col-11 col-md-5 form-group'>

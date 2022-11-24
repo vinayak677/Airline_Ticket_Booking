@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   let [mail, setMail] = useState("");
@@ -25,18 +24,18 @@ const Footer = () => {
       </div>
     
     </div>
-      <div className="row  container-fluid  d-flex justify-content-center align-items-start align-content-between w-100">
+      <div className="row  container-fluid  d-flex justify-content-center align-items-start align-content-between w-80">
         <div className="col-5 footertext mx-1">
           <h4 className="mb-3">Venue Location</h4>
           <p>17 - 22 NOVEMBER, 2022</p>
           <p>4th main cross, Hanuman Street, Colony Road Sankeshwar</p>
         </div>
-        <div className="col-5 footertext mx-1">
-          <h1 className="mb-3">Social Connection</h1>
+        <div className="col-5 footertext ">
+          <h1 className="mb-3 h1small">Social Connection</h1>
           <p className="">Don't miss a thing! Receive daily news You should connect social area for Any Proper Updates Anytime</p>
         </div>
 
-          <div className="col-8 d-flex justify-content-between" >
+          <div className="col-8 d-flex justify-content-center" >
           <a href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/">
           <img style={{width:"40px", height:"40px",margin:"20px"}} src="../../Images/linkedin.png" alt="" /></a>
           <a href="https://github.com/vinayak677">

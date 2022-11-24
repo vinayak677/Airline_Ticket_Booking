@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import About from './About'
 import Booking_sum from './Booking_sum'
 import Contact from './Contact'

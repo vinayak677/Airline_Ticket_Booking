@@ -1,10 +1,7 @@
 import React from "react";
-// import AnimatedNumber from 'react-animated-number';
 import {useSpring,animated} from "react-spring";
 import Booking_sum from "./Booking_sum";
-import Header from "./Header";
-import Schedules from "./Schedules";
-import TicketPrice from "./TicketPrice";
+
 
 function Number({n}){
   const { number } = useSpring({
