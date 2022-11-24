@@ -13,7 +13,7 @@ const Footer = () => {
             class="input-field"
             type="mail"
             value={mail}
-            placeholder="Enter your Eamil"
+            placeholder="Enter your Email"
             onChange={(e) => setMail(e.target.value)}
           />
           <button class="input-button">Submit</button>

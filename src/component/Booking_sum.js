@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Booking_sum = () => {
   return (
@@ -17,10 +18,10 @@ const Booking_sum = () => {
 
         <div className="row main_img_btn d-flex justify-content-center pb-5">
           <button className="col-5 col-sm-4 col-md-4 col-lg-2 btn_purchase mx-3 py-2 bg-primary text-white">
-            Purchase Now
+          <Link to="/ticketPrice" className="b text_white"> Purchase Now</Link>
           </button>
-          <button className="col-4 col-sm-4 col-md-4 col-lg-2 btn_learn bn mx-3 py-2 text-primary">
-            Learn More
+          <button className="col-4 col-sm-4  col-md-4 col-lg-2 btn_learn bn mx-3 py-2 text-primary">
+          <Link to="/schedules" className="a"> Learn More</Link>
           </button>
         </div>
       </div>

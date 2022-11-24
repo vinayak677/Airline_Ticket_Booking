@@ -31,8 +31,9 @@
     color: white;
 }
 .buy_btn {
-  border-radius: 22px;
-  width: 160px;
+  border-radius: 25px;
+  width: 170px;
+  height: 50px;
   border: none;
   color: white;
   background: black;
@@ -67,6 +68,10 @@ background-position: center;
   }
   .a:hover{
     text-decoration: none;
+  }
+  .b:hover{
+    text-decoration: none;
+    color: white;
   }
 .bg_dot{
   background-image: url("../../Images/dots.jpg");
@@ -563,4 +568,16 @@ margin-left: 155px;
 
 .text_black{
   color: black;
+}
+
+.ibtn{
+  border-radius: 17px;
+  height: 70px;
+  width: 140px;
+  background: black;
+  color: white;
+  margin-right: 7px;
+  border-radius: 25px;
+  padding: 0px;
+  margin: 2px;
 }
