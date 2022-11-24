@@ -280,11 +280,11 @@ align-content: center;
   }
    }
 
-    @media (min-width: 576px) and (max-width: 767px) {
+    /* @media (min-width: 576px) and (max-width: 767px) {
       .font_xxl{
         font-size: 20px;
       }
-      }
+      } */
 
 @media (min-width: 576px) and (max-width: 767px) {
   .font_xxl{
