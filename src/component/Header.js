@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-md text_white bg_blue_nav navbar-dark head_font header">
+    <nav class="navbar navSamll navbar-expand-md text_white bg_blue_nav navbar-dark head_font header">
       <a class="navbar-brand head_logo " href="/">
-        <img className="logo wow animate__animated animate__flip" src="../Images/logo.jpg" alt="" />
+        <img className="logo wow animate__animated animate__zoomIn" src="../Images/logo.jpg" alt="" />
       </a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler wow animate__animated animate__zoomIn"
         type="button"
         data-toggle="collapse"
         data-target="#colNav"
@@ -51,7 +51,7 @@ const Header = () => {
         
       </div>
       <div className="">
-          <button className="ticket_btn py-2  wow animate__animated animate__rotateInDownRight text_dec a:hover"><Link to="/ticketPrice" className="text_dec a" > Get a Ticket</Link></button>
+          <button className="ticket_btn py-2  wow animate__animated animate__zoomIn text_dec a:hover"><Link to="/ticketPrice" className="text_dec a" > Get a Ticket</Link></button>
           </div>
     </nav>
   );
