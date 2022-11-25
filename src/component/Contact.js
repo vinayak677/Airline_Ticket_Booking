@@ -112,9 +112,9 @@ const Contact = () => {
          </div>
             
             
-            <div className='col-11 col-sm-12 col-md-6 col-lg-7'>
+            <div className='col-11 col-sm-12 col-md-6 col-lg-7 wow animate__animated animate__slideInRight'>
          
-            <div className='row d-flex justify-content-center pb-4 wow animate__animated animate__slideInRight'>
+            <div className='row d-flex justify-content-center pb-4 '>
             <div className='col-11 col-md-5 form-group'>
                 <input type='text' placeholder='NAME' id="name" value={name} className='form-control bg_grey rounded form-control-lg shadow-none '  onChange={(e)=>setName(e.target.value)}/>
                 <span style={{color:'red'}}>{object.name}</span>
