@@ -11,7 +11,6 @@ import Schedules from "./component/Schedules";
 import Sponsors from "./component/Sponsors";
 import Footer from "./component/Footer";
 
-
 const App = () => {
   return (
     <div>

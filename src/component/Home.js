@@ -8,6 +8,7 @@ import Schedules from './Schedules'
 import Speakers from './Speakers'
 import Sponsors from './Sponsors'
 import TicketPrice from './TicketPrice'
+import UseForm from './UseForm'
 
 const Home = () => {
 const[load,setLoad] =useState(true);
