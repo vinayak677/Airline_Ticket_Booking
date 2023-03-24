@@ -70,13 +70,15 @@ background-size: cover;
 height: 95vh;
 background-repeat:no-repeat;
 background-position: center;
+background-attachment: fixed;
 }
 .bg_imgContact{
   background-image: url("../../Images/b2.jpg");
   background-size: cover;
-  height: 95vh;
+  height: 80vh;
   background-repeat:no-repeat;
   background-position: center;
+  background-attachment: fixed;
   }
   .a:hover{
     text-decoration: none;
@@ -398,6 +400,8 @@ align-content: center;
   border-bottom-left-radius: 30px;
   background-color: wheat;
   flex-direction: column;
+  transform: scale(1.06);
+  transition-delay: .1s;
 }
 .cards_size1,.cards_size2,.cards_size3{
  margin-top: -33rem;
